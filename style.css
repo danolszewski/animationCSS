@@ -1,0 +1,144 @@
+/* GENERAL STYLE */
+
+html,
+body {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #309DCF;
+}
+
+/* EARTH STYLE */
+
+.rotation-earth {
+    width: 67vh;
+    height: 67vh;
+   /* -webkit-animation: spin 120s linear infinite;
+    animation: spin 120s linear infinite; */
+
+}
+
+.earth {
+    max-width: 67vh;
+    max-height: 67vh;
+    height: 67vh;
+    width: 67vh;
+
+    position: absolute;
+    bottom: 14vh;
+    left: 50%;
+    margin-left: -33.5vh;
+    -webkit-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite; 
+}
+
+/* LIGHTHOUSE STYLE */
+
+.lighthouse {
+    max-width: 10vh;
+    width: 10vh;
+    max-height: 12vh;
+    height: 12vh;
+    overflow: hidden;
+   position: absolute;
+    top:-6.5vh;
+    left: 9vh;
+    -webkit-transform: rotate(-32deg);
+    transform: rotate(-32deg);
+    
+}
+
+/* SUN STYLE */
+
+.pulse-sun {
+    width: 20vh;
+    height: 20vh;
+    -webkit-animation: run-sun 5s linear infinite;
+    animation: run-sun 5s linear infinite;
+}
+
+.sun {
+    max-width: 20vh;
+    max-height: 20vh;
+    height: 20vh;
+    widows: 20vh;
+    position: absolute;
+    top: 10vh;
+    left: 25%;
+    margin-left: -10vh;
+
+
+}
+
+/* CAR STYLE */
+
+.static-top-car {
+    width: 24vh;
+    height: 20vh;
+}
+
+.car {
+    max-width: 24%;
+    max-height: 20%;
+    height: 20%;
+    width: 24%;
+    overflow: hidden;
+    position: absolute;
+    top: 4%;
+    left: 56%;
+    margin-left: -11.8%;
+}
+
+/* CLOUDS STYLE */
+
+.first-clouds {
+    max-width: 100%;
+    max-height: 30%;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(images/clouds1.png) repeat-x;
+    -webkit-animation: run 240s infinite linear forwards normal;
+    animation: run 180s infinite linear forwards normal;
+
+}
+
+.second-clouds {
+    max-width: 100%;
+    width: 100%;
+    max-height: 35%;
+    height: 35%;
+    overflow: hidden;
+    z-index: 90;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(images/clouds2.png) repeat-x;
+    opacity: .4;
+    background-position: 0 0;
+    -webkit-animation: run 700s infinite linear forwards normal;
+    animation: run 480s infinite linear forwards normal;
+}
+
+
+/* LINE OF THE SUN STYLE */
+
+.oval {
+    width: 55%;
+    height: 47%;
+    background-color: transparent;
+    border: 3px dashed white;
+    border-radius: 100%;
+    margin: 40px auto 0;
+    position: absolute;
+    top: 3%;
+    left: 23%;
+    z-index: -99;
+}
