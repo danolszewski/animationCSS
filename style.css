@@ -3,12 +3,16 @@
 html,
 body {
     margin: 0;
+    padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    height: 100%;
 }
 
 body {
-    background-color: #309DCF;
+    background-color: #444;
+    -webkit-animation: sky 45s linear infinite;
+    animation: sky 45s linear infinite;
 }
 
 /* EARTH STYLE */
@@ -19,17 +23,16 @@ body {
 }
 
 .earth {
-    max-width: 67vh;
+    max-width: 67h;
     max-height: 67vh;
     height: 67vh;
     width: 67vh;
-
     position: absolute;
     bottom: 14vh;
     left: 50%;
     margin-left: -33.5vh;
-    -webkit-animation: spin 10s linear infinite;
-    animation: spin 10s linear infinite;
+    -webkit-animation: spin 45s linear infinite;
+    animation: spin 45s linear infinite;
 }
 
 /* LIGHTHOUSE STYLE */
@@ -39,32 +42,38 @@ body {
     width: 10vh;
     max-height: 12vh;
     height: 12vh;
-    overflow: hidden;
     position: absolute;
     top: -6.5vh;
     left: 9vh;
     -webkit-transform: rotate(-32deg);
     transform: rotate(-32deg);
+    -webkit-animation: light 45s linear infinite;
+    animation: light 45s linear infinite;
+    background-color: transparent;
 }
 
 /* SUN STYLE */
 
-.pulse-sun {
-    width: 20vh;
-    height: 20vh;
-    -webkit-animation: run-sun 5s linear infinite;
-    animation: run-sun 5s linear infinite;
+.sun {
+    width: 10vw;
+    height: 10vw;
+
 }
 
-.sun {
-    max-width: 20vh;
-    max-height: 20vh;
-    height: 20vh;
-    widows: 20vh;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    margin-left: -10vh;
+.run-sun {
+    max-width: 10vw;
+    max-height: 10vw;
+    height: 10vw;
+    width: 10vw;
+    width: 10vw;
+    position: fixed;
+    z-index: -999;
+    bottom: 0;
+    left: 10%;
+
+    -webkit-animation: run-sun 45s infinite linear;
+    animation: run-sun 45s infinite linear;
+
 }
 
 /* CAR STYLE */
@@ -82,56 +91,35 @@ body {
     overflow: hidden;
     position: absolute;
     top: 4%;
-    left: 56%;
-    margin-left: -11.8%;
+    left: 60%;
+    margin-left: -15%;
+    -webkit-animation: jump 45s infinite linear;
+    animation: jump 45s infinite linear;
 }
 
 /* CLOUDS STYLE */
 
 .first-clouds {
-    max-width: 100%;
-    max-height: 30%;
-    width: 100%;
-    height: 30%;
-    overflow: hidden;
+    height: 33%;
     z-index: 100;
     position: absolute;
     bottom: 0;
     left: 0;
+    right: 0;
     background: url(images/clouds1.png) repeat-x;
-    -webkit-animation: run 240s infinite linear forwards normal;
-    animation: run 180s infinite linear forwards normal;
+    -webkit-animation: run 150s infinite linear forwards normal;
+    animation: run 150s infinite linear forwards normal;
 }
 
 .second-clouds {
-    max-width: 100%;
-    width: 100%;
-    max-height: 35%;
-    height: 35%;
-    overflow: hidden;
+    height: 38%;
     z-index: 90;
     position: absolute;
     bottom: 0;
     left: 0;
+    right: 0;
     background: url(images/clouds2.png) repeat-x;
-    opacity: .4;
-    background-position: 0 0;
-    -webkit-animation: run 700s infinite linear forwards normal;
-    animation: run 480s infinite linear forwards normal;
-}
-
-
-/* LINE OF THE SUN STYLE */
-
-.oval {
-    width: 55%;
-    height: 47%;
-    background-color: transparent;
-    border: 3px dashed white;
-    border-radius: 100%;
-    margin: 40px auto 0;
-    position: absolute;
-    top: 3%;
-    left: 23%;
-    z-index: -99;
+    opacity: .6;
+    -webkit-animation: run 320s infinite linear forwards normal;
+    animation: run 320s infinite linear forwards normal;
 }
