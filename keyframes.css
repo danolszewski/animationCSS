@@ -19,6 +19,7 @@
     from {
         background-position: 0 0;
     }
+
     to {
         background-position: 1920px 0;
     }
@@ -28,6 +29,7 @@
     from {
         background-position: 0 0;
     }
+
     to {
         background-position: 1920px 0;
     }
@@ -52,6 +54,7 @@
     85% {
         background-color: #8D3118;
     }
+
     100% {
         background-color: #444;
     }
@@ -73,6 +76,7 @@
     85% {
         background-color: #8D3118;
     }
+
     100% {
         background-color: #444;
     }
@@ -260,54 +264,90 @@
 
 /* Lighthouse Shining */
 
+
+
 @-webkit-keyframes light {
     0% {
+
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+    }
+
+    10% {
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+    }
+
+    11% {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
 
     70% {
+
         -webkit-box-shadow: none;
+
         box-shadow: none;
     }
 
     71% {
-        -webkit-box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
-        box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
+
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
     }
+
     90% {
-        -webkit-box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
-        box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
     }
 
     100% {
-        -webkit-box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
-        box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
     }
 }
 
+
+
 @keyframes light {
     0% {
+
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+    }
+
+    10% {
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+    }
+
+    11% {
         -webkit-box-shadow: none;
-        box-shadow: none;
+        box-shadow: none
     }
 
     70% {
+
         -webkit-box-shadow: none;
+
         box-shadow: none;
     }
 
     71% {
-        -webkit-box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
-        box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
-    }
-    90% {
-        -webkit-box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
-        box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
+
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
     }
 
-    100 {
-        -webkit-box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
-        box-shadow: 0px -60px 144px 76px rgba(252, 232, 18, 1);
+    90% {
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+    }
+
+    100% {
+        -webkit-box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
+        box-shadow: 0px -70px 299px 40px rgba(255, 255, 0, 1);
     }
 }

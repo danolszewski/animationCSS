@@ -47,9 +47,19 @@ body {
     left: 9vh;
     -webkit-transform: rotate(-32deg);
     transform: rotate(-32deg);
+
+}
+
+.shine {
+    width: 2%;
+    height: 2%;
+    background-color: yellow;
+    position: absolute;
+    z-index: -10000;
+    top: -3.8vh;
+    left: 12vh;
     -webkit-animation: light 45s linear infinite;
     animation: light 45s linear infinite;
-    background-color: transparent;
 }
 
 /* SUN STYLE */
